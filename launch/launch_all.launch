@@ -1,0 +1,8 @@
+<launch>
+<node pkg="test_pub_sub" name="yayimci_node" type="topic_publisher.py" output="screen" >
+</node>
+
+<node pkg="test_pub_sub" name="mesaj_alan_node" type="topic_subscriber.py" output="screen">
+</node>
+
+</launch>
